@@ -48,11 +48,11 @@ primary key ((ch,dt),cu)
 );
 
 begin batch
-insert into sentiment1 (body,dt,ch,cu,sent) values ('I’m feeling sick.',20160102,'twitter','red bull','negative');
-insert into sentiment2 (body,dt,ch,cu,sent) values ('I’m feeling sick.',20160102,'twitter','red bull','negative');
-insert into sentiment3 (body,dt,ch,cu,sent) values ('I’m feeling sick.',20160102,'twitter','red bull','negative');
-insert into sentiment4 (body,dt,ch,cu,sent) values ('I’m feeling sick.',20160102,'twitter','red bull','negative');
-insert into sentiment5 (body,dt,ch,cu,sent) values ('I’m feeling sick.',20160102,'twitter','red bull','negative');
+insert into sentiment1 (body,dt,ch,cu,sent) values ('Im feeling sick.',20160102,'twitter','red bull','negative');
+insert into sentiment2 (body,dt,ch,cu,sent) values ('Im feeling sick.',20160102,'twitter','red bull','negative');
+insert into sentiment3 (body,dt,ch,cu,sent) values ('Im feeling sick.',20160102,'twitter','red bull','negative');
+insert into sentiment4 (body,dt,ch,cu,sent) values ('Im feeling sick.',20160102,'twitter','red bull','negative');
+insert into sentiment5 (body,dt,ch,cu,sent) values ('Im feeling sick.',20160102,'twitter','red bull','negative');
 apply batch;
 
 begin batch
